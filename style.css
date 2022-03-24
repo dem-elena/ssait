@@ -1,0 +1,36 @@
+div {
+  background-color:beige;
+  width:400px;
+  box-shadow: 5px 7px grey;
+  padding-top:10px;  
+  text-align: center;
+/*   transition: all 0.8s ease 0s; */
+}
+input {
+  margin-bottom:10px;
+  border-radius:10px;
+  box-shadow: 3px 4px grey;
+  height:30px;
+  width:200px;
+  border: 0;
+}
+
+label {
+  text-transform: uppercase;
+  display:block;
+  margin-bottom:7px;
+  
+}
+input[type='submit'] {
+  color: white;
+  background-color:blue;
+  border-radius:10px;
+  padding: 5px;
+  text-transform: uppercase; 
+  height:40px;
+  width:200px;
+   transition: all 1.8s ease 0s; */
+}
+input[type='submit']:hover {
+  transform:translateY(-2px) translateX(2px) scale(-1,1);font-weight:400px;
+font-size: 20px;}
